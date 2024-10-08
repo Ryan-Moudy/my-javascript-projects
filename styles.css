@@ -69,6 +69,20 @@ nav a.active{
     border-bottom: 3px solid rgb(240, 219, 79);
 }
 
+.main_website {
+    display: block;
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main_website:hover {
+    color: rgb(240, 219, 79);
+}
+
 @media(max-width:995px){
     nav{
         position: absolute;
@@ -79,7 +93,6 @@ nav a.active{
         border-left: 3px solid rgb(240, 219, 79);
         border-bottom: 3px solid rgb(240, 219, 79);
         border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
         background-color: #161616;
         border-top: 0.1rem solid rgba(0,0,0,0.1);
     }
@@ -200,7 +213,7 @@ table {
     border-collapse: collapse;
     margin: 2rem 0;
     font-size: 1.6rem;
-    text-align: left;
+    text-align: center;
     color: white;
     background-color: rgb(50, 50, 50);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
