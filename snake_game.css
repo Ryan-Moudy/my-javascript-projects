@@ -1,24 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
+body {
+    background-color: rgb(60, 60, 60);
+}
+
 #gameContainer {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 #gameBoard {
-    border: 3px solid;
+    border: 5px solid;
+    border-color: rgb(240, 219, 79);
 }
 
 #scoreText {
-    font-family: 'Poppins', sans-serif;
     font-size: 100px;
+    color: rgb(240, 219, 79)
 }
 
 #restartButton {
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    width: 100px;
-    height: 50px;
-    border: 4px solid;
-    border-radius: 15px;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: transparent;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: rgb(240, 219, 79);
+    font-weight: 600;
+    border: 2px solid rgb(240, 219, 79);
+    transition: 0.3s ease;
     cursor: pointer;
+    outline: none;
+}
+
+#restartButton:hover {
+    background-color: rgb(240, 219, 79);
+    color: white;
+    box-shadow: 0 0 25px rgb(240, 219, 79);
+}
+
+.goBack {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: transparent;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: rgb(240, 219, 79);
+    font-weight: 600;
+    border: 2px solid rgb(240, 219, 79);
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.goBack:hover {
+    background-color: rgb(240, 219, 79);
+    color: white;
+    box-shadow: 0 0 25px rgb(240, 219, 79);
 }

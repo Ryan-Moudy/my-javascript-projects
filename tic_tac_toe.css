@@ -54,7 +54,6 @@ h2 {
 }
 
 #restartButton:hover {
-    transform: scale3d(1.03);
     background-color: rgb(240, 219, 79);
     color: white;
     box-shadow: 0 0 25px rgb(240, 219, 79);
@@ -75,7 +74,6 @@ h2 {
 }
 
 .goBack:hover {
-    transform: scale3d(1.03);
     background-color: rgb(240, 219, 79);
     color: white;
     box-shadow: 0 0 25px rgb(240, 219, 79);
