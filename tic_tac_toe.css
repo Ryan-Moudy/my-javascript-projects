@@ -8,11 +8,13 @@
     line-height: 75px;
     font-size: 50px;
     cursor: pointer;
+    color: rgb(240, 219, 79);
 }
 
 #gameContainer {
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    color: white;
 }
 
 #cellContainer {
@@ -20,4 +22,61 @@
     grid-template-columns: repeat(3, auto);
     width: 225px;
     margin: auto;
+}
+
+body {
+    background-color: rgb(60, 60, 60);
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#restartButton {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: transparent;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: rgb(240, 219, 79);
+    font-weight: 600;
+    border: 2px solid rgb(240, 219, 79);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#restartButton:hover {
+    transform: scale3d(1.03);
+    background-color: rgb(240, 219, 79);
+    color: white;
+    box-shadow: 0 0 25px rgb(240, 219, 79);
+}
+
+.goBack {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: transparent;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: rgb(240, 219, 79);
+    font-weight: 600;
+    border: 2px solid rgb(240, 219, 79);
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.goBack:hover {
+    transform: scale3d(1.03);
+    background-color: rgb(240, 219, 79);
+    color: white;
+    box-shadow: 0 0 25px rgb(240, 219, 79);
 }
